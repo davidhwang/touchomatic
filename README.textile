@@ -4,22 +4,22 @@ By David Hwang (Media elements created by Emily Ward, Greg Mercer, and Sasha Sam
 
 Touch-o-matic is a super lightweight, simple implementation of some honestly pretty basic HTML5 & CSS with some jQuery thrown in to create a workable, easy-to-deploy touchscreen interactive for the Field Museum's upcoming Abbot Hall of Conversvation: Restoring Earth(tm). 
 
-h2. Requirements.
+h2. Requirements
 
 Although this software is in theory all kinds of cross-platform compatible, as it is intended for use in kiosk-style installations the following assumptions are made:
 * Running a Modern Browser (in this case, Chrome or Safari)
 * Presently, Chrome on OSX does not support hardware acceleration, so framerates on transitions as of July 2011 are markedly better using Safari, which presumably has better access to HW accel than Chrome. This may change prior to go-live in October. 
 * The CSS requires a screen larger than 1800x1000
-* The browser/OS in which this runs must support H.264 playback, as the videos are currently embedded as .m4v inside an HTML5 <video> element. There is no current plan to add fallbacks to ogg, avi or otherwise.
+* The browser/OS in which this runs must support H.264 playback, as the videos are currently embedded as .m4v inside an HTML5 video element. There is no current plan to add fallbacks to ogg, avi or otherwise.
 
 
-h2. Deployment. 
+h2. Deployment 
 
-On a computer with git installed, clone the repository. Adjust the URLS the index.htm and respective player[x].htm files to the appropriate movie files. Open a browser and point it to the index.htm file, et voila!
+On a computer with git installed, clone the repository. Adjust the URLs in index.htm and respective player[x].htm files to the appropriate movie files. Open a browser and point it to the directory in which you cloned the repo, et voila!
 
-h2. License.
+h2. License
 
-All HTMl, CSS and Javascript code in this project is licensed under the GNU GPLv3 license. Please see http://www.gnu.org/copyleft/gpl.html for more details. 
+All HTML, CSS and Javascript code in this project is licensed under the GNU GPLv3 license. Please see http://www.gnu.org/copyleft/gpl.html for more details. 
 
 All included video, sound, art and imagery is Copyright (c)The Field Museum and may not be used, copied, redistributed, sold or lent without express written consent from the The Field Museum. All rights reserved.
 
