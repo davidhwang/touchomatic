@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$("body").hide();
+	$("body").css("display", "none");
 	$("body").fadeIn(700);
 
 	$("a.trigger").click(function(event){
