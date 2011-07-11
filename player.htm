@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style="background-color: #111;">
+	<head>
+		<title>Touch-o-matic!</title>
+
+		<link rel="stylesheet" href="css/player.css" type="text/css" media="screen" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/player.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("body").css("display", "none");
+			$("body").fadeIn(700, function() {
+				$(this).delay(56000).fadeOut(1000, function() { 
+        window.location = 'index.htm'; });
+        });
+		});
+		</script>
+
+	</head>
+
+	<body>
+	<div class="playerwrap">
+		<video autoplay="autoplay" id="vid" style="margin:auto;">
+			<source src="videos/MammalDiscovery_video-QuickTimeH264.mov" type="video/mp4" />
+		</video>	
+		</a>
+	</div>
+	</body>
+
+</html>

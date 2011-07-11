@@ -1,3 +1,31 @@
+
+body {
+	background-color: #111;
+}
+
+.wrap {	
+	width: 1800px;
+	height: 1000px;
+	background-color: #111;
+	/* border: 1px solid #aed; */
+	margin: auto;
+}
+
+
+
 ul {
 	list-style-type: none;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	/* border: 1px solid #dea; */
+}
+
+li {
+	display: inline;
+}
+
+.four li {
+	padding: 27px;
+	/* border: 1px solid #90f; */
 }
