@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html style="background-color: #111;">
+<html style="background-color: #111;"> <!-- style call necessary to prevent white flash during transition. ugly, i know. -->
 	<head>
 		<title>Touch-o-matic v.0.1!</title>
 
-		<!-- jquery, and the box of fanciness -->
+		<!-- jquery, and the javascript for transitions -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/touchomatic.js"></script>
 		
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 		
+		<!-- to keep people from changing the viewport scale, may remove this later -->
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 	</head>
 
 	<body>
 	<div class="wrap">
+
+
+	<!-- use class 'four' for 4 image-wide index, 'five' for 5. simple. -->
 	<ul class="four">
 		<li>
 			<a href="player.htm" class="trigger">
@@ -54,8 +58,8 @@
 			</video>	
 			</a>
 		</li>
-
 	</ul>
+
 	</div><!-- end wrap -->
 	
 	</body>
