@@ -3,6 +3,10 @@ body {
 	background-color: #111;
 }
 
+a {
+	text-decoration: none;
+}
+
 .wrap {	
 	width: 1800px;
 	height: 1000px;
