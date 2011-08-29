@@ -9,7 +9,7 @@ a {
 
 .wrap {	
 	width: 1800px;
-	height: 1000px;
+	height: 880px;
 	background-color: #111;
 	/* border: 1px solid #aed; */
 	margin: auto;
@@ -32,4 +32,11 @@ li {
 .four li {
 	padding: 27px;
 	/* border: 1px solid #90f; */
+}
+
+.help {
+	font-size: 60px;
+	font-family: Helvetica, Arial;
+	color: #fff;
+	text-align: center;
 }
