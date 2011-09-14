@@ -6,6 +6,7 @@ body {
 
 .playerwrap {
 	margin: auto;
+	overflow: hidden;
 }
 
 .playerwrap video {
