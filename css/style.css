@@ -42,3 +42,18 @@ li {
 	color: #555;
 	text-align: center;
 }
+
+.credits {
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+
+.credits a {
+	font-family: "Franklin Gothic Demi", Helvetica, Arial;
+	font-size: 35px;
+	color: #888;
+	background: #444;
+	text-decoration: none;
+	padding: 20px;
+}
