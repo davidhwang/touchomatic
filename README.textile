@@ -7,16 +7,20 @@ Touch-o-matic is a super lightweight, simple implementation of basic HTML5 & CSS
 
 h2. Requirements
 
-Although this software is in theory all kinds of cross-platform compatible, as it is intended for use in kiosk-style installations the following assumptions are made:
-* A Modern Browser (in this case, Chrome or Safari), running in Kiosk Mode. 
-* Presently, Chrome on OSX does not support hardware acceleration, so framerates on transitions as of July 2011 are markedly better using Safari, which presumably has better access to HW accel than Chrome. This may change prior to go-live in October. 
+Although this software is designed to be cross-platform compatible, as it is intended for use in kiosk-style installations the following assumptions are made:
+* A Modern Browser (in this case, Chrome or Safari), running in Kiosk Mode.  
 * The CSS requires a screen larger than 1800x1000
-* The browser/OS in which this runs must support Ogg Theora playback, as the videos are currently embedded as .ogv sources inside an HTML5 video element. There is no current plan to add fallbacks to h264, avi or otherwise.
+* The browser/OS in which this runs must support Ogg Theora playback, as the videos are currently embedded as .ogv sources inside an HTML5 video element. There is no current plan to add fallbacks to h264, Flash or otherwise.
 
 h2. Deployment 
 
-On a computer with git installed, clone the repository. Adjust the URLs in index.htm and respective player[x].htm files to the appropriate movie files. Open a browser and point it to the directory in which you cloned the repo, _et voila!_
+On a computer with git installed, clone the repository. Copy the video files into the videos/ directory. Adjust the URLs in index.htm and respective player[x].htm files to the appropriate movie files (viz. thumbnail vids in index, full screen vids in the players). Open a browser and point it to the directory in which you cloned the repo, _et voila!_
 
+h2. Deployment Notes:
+
+* Make sure the production computer's browser is set to run in Kiosk mode. "Chrome Kiosk Mode instructions":http://think2loud.com/868-google-chrome-full-screen-kiosk-mode/
+* Suppress the display of all screensavers
+* Videos are by design _not_ stored in this repo. Be sure to copy your media to the videos directory before launching.
 
 h2. License
 
