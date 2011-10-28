@@ -1,3 +1,7 @@
+html, body, a, div, p, ul, li, video {
+	cursor: url("cursor.cur"), progress;
+}
+
 body {
 	background-color:#111;
 	padding:0;
